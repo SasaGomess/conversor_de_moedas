@@ -69,7 +69,7 @@ public class MenuConversor {
                 int conversionValue = sc.nextInt();
                 String json = currencyClient.currencyRequest(baseCode, targetCode, conversionValue);
                 double coversionResult = currencyClient.getCoversionResult(json);
-                System.out.println(new Currency("USD", "BRL", conversionValue, coversionResult));
+                System.out.println(new Currency(baseCode, targetCode, conversionValue, coversionResult));
             }
         }
     }
