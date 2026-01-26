@@ -51,13 +51,13 @@ Tudo acontece diretamente no console, com um menu interativo e navegação simpl
 
 ***Execute o projeto e agora é só aproveitar :)***
 
-### 🔮 Melhorias Futuras (opcional)
+### 🔮 Melhorias Futuras
 
 - Histórico de conversões
 
 - Suporte a mais APIs
 
-- Configuração de logs
+- Configuração de logs com Log4j
 
 ### 🤝Como contribuir
 
